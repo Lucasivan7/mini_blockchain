@@ -1,0 +1,44 @@
+# hash_del_bloque = hashlib.sha256(bloque).hexdigest()
+# print(Block.hash_del_bloque)
+
+
+# bloque_string = json.dumps(bloque_hash, sort_keys=True).encode()
+# hash = hashlib.sha256(bloque_string).hexdigest()
+# print(hash)
+
+# nonce = 0
+# while True:
+#     bloque_hash = {
+#     'index': bloque.index,
+#     'transaccion': bloque.transaccion,
+#     'nonce': 4
+#     }
+
+#     bloque_string = json.dumps(bloque_hash, sort_keys=True).encode()
+#     hash = hashlib.sha256(bloque_string).hexdigest()
+#     print(hash)
+#     nonce += 1
+#     if hash[:4] == '0000':
+#         break
+# print(bloque_hash['nonce'])
+
+
+
+
+
+# c = 0
+# while True:
+#     bloque_hash = {
+#     'index': bloque.index,
+#     'transaccion': bloque.transaccion,
+#     'nonce': c
+#     }
+
+#     bloque_string = json.dumps(bloque_hash, sort_keys=True).encode()
+#     hash = hashlib.sha256(bloque_string).hexdigest()
+#     print(hash)
+#     c += 1
+#     if hash[:5] == "00000":
+#         break
+# print(bloque_hash['nonce'])
+# print("--- %s seconds ---" % (time() - start_time))
